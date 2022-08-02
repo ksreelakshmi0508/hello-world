@@ -5,7 +5,7 @@ connector:
   projectIdentifier: salestestproject
   type: DockerRegistry
   spec:
-    dockerRegistryUrl: https://hub.docker.com/u/sreelk589
+    dockerRegistryUrl: https://hub.docker.com/
     providerType: DockerHub
     auth:
       type: UsernamePassword
