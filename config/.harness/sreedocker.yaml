@@ -1,7 +1,6 @@
 connector:
   name: sree-docker
   identifier: sreedocker
-  description: ""
   orgIdentifier: default
   projectIdentifier: salestestproject
   type: DockerRegistry
