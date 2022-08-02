@@ -1,0 +1,22 @@
+connector:
+  name: sree-github-connector
+  identifier: sreegithubconnector
+  description: ""
+  orgIdentifier: default
+  projectIdentifier: salestestproject
+  type: Github
+  spec:
+    url: https://github.com/ksreelakshmi0508/hello-world
+    authentication:
+      type: Http
+      spec:
+        type: UsernameToken
+        spec:
+          username: sree
+          tokenRef: sreesecretgitnew
+    apiAccess:
+      type: Token
+      spec:
+        tokenRef: harness
+    executeOnDelegate: false
+    type: Repo
